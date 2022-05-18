@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial scale=1.0" charset="utf-8">
+	<title>Prueba Tecnica</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+
+</head>
+<body>
+	<ul class=ul1>
+		<li class=li1>
+			<img src="https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-logo.png" class="image1">
+		<div>
+		<h2 class="titulo">Prueba de desarrollo Sigma</h2>
+		<div>
+			<p class="lore">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+	</div>
+	</li>
+	<br/><br />
+	<li class=li2>
+		<img src="https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-image.png" class="image2">
+	<div class="form-container">
+		<div class="form-header">
+
+			<ul>
+				<li>
+					<li>					
+						<label class="texto" for="departamento">Departamento*</label>
+					</li>
+
+					<select class="departamento" id="departamento" name="departamento">
+						
+					</select>
+					
+					
+				</li>		
+				<li>
+					<li>
+					<label class="texto" for="ciudad">Ciudad*</label>
+					</li>
+					<select class="select" id="ciudad" name="ciudad">
+						
+					</select>
+										
+				</li>
+				<li>
+					<li>
+					<label class="texto">Nombre*</label>
+					</li>
+					<input type="text" id="nombre" name="nombre" class="answer" required placeholder="Pepito de Jesús" pattern="^[a-zA-Z]+$">
+					
+				</li>
+				<li>
+					<li>
+					<label class="texto">Correo*</label>
+					</li>
+					<input type="text" id="correo" name="correo" class="answer" required placeholder="Pepitodejesus@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+					
+				</li>
+			</ul>
+			<br/><br />	
+			<button id="submit" onclick="IngrsarDatos()">ENVIAR</button>
+			
+		</div>	
+	</div>
+	</li>
+	</ul>
+
+	
+</body>
+
+	<div class="modal" id="modalok">
+		  <div class="modal-content">
+			  	<div class="modal-header">
+	  			   			 	
+	   			</div>
+
+	   			<div class="modal-body">
+	   				<p class="lore">Tu información ha sido recibida satisfactoriamente</p>
+	   			</div>
+
+	   			<div class="modal-footer">
+	   				<span class="close">
+	   					<button class="ok">OK</button>
+	   				</span>
+	   			</div>
+
+		  </div>
+	</div>
+
+</html>
